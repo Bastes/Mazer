@@ -1,0 +1,18 @@
+=Maze
+
+A fun little gem to generate and explore mazes.
+
+It's easy to make a maze :
+
+- Maze::Maze.new(5) will build a 5x5 maze.
+- Maze::Maze.new(8,6) will build a 8x6 maze.
+
+You can access cells :
+- maze = Maze(10)
+- cell = maze[2, 5] # read cell at [2, 5]
+- cell.north # read cell at [2, 4]
+- cell.door :west # west door closed => nil
+- cell.open :east # open the door to [3, 5] => cell at [3, 5]
+- cell.door_east # east door open => cell at [3, 5]
+
+More precise informations in the api documentation.
