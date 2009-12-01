@@ -1,4 +1,4 @@
-require 'cell'
+require 'maze/cell'
 
 module Maze
   # =The Maze
