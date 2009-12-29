@@ -1,6 +1,6 @@
-require 'maze/cell'
+require 'mazer/cell'
 
-module Maze
+module Mazer
   # =The Maze
   #
   # The Maze::Maze class holds a maze.

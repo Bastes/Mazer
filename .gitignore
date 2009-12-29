@@ -1,4 +1,5 @@
-doc
+rdoc
+coverage
 *.swp
 .DS_Store
 .vimproject

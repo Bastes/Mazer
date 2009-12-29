@@ -1,4 +1,4 @@
-module Maze
+module Mazer
   # =Maze Cells
   #
   # Cells are generated on the fly to provide wrappers accessing raw maze data in a more user-friendly way.

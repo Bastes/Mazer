@@ -1,8 +1,8 @@
 require 'test/helper'
 
-class MazeTest < Test::Unit::TestCase
+class MazerTest < Test::Unit::TestCase
   context "A freshly created 10x10 cell maze" do
-    setup { @maze = Maze::Maze.new 10 }
+    setup { @maze = Mazer::Maze.new 10 }
 
     should "be 10x10" do
       assert_equal @maze.width, 10
